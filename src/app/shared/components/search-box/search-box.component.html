@@ -1,4 +1,13 @@
 <input
  type="text" 
- placeholder="buscar por capital"
-class="form-control">
+ class="form-control" 
+ [placeholder]="placeholder"
+ (keyup.enter)="emitValue(txtInput.value)"
+#txtInput
+>
+
+
+
+
+
+

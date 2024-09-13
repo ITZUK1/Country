@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class ByCountryPageComponent {
 
+  searchCapital(term: string): void {
+    console.log('desde byCapitalpage');
+    console.log(term); 
+  }
 }
